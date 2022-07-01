@@ -1,6 +1,6 @@
 """EX02 - One-Shot wordle - A cute step toward Wordle."""
 
-__author__ ="730440563"
+__author__ = "730440563"
 
 w: str = "python"
 gues: str = input("What is your 6-letter word guess? ")
@@ -9,7 +9,7 @@ while g != 6:
     if len(gues) == 6:
         g = 6 
         break
-    gues: str = input("That was not 6 letters! Try again: ")
+    gue: str = input("That was not 6 letters! Try again: ")
 WHITE_BOX: str = "\U00002B1C"
 GREEN_BOX: str = "\U0001F7E9"
 YELLOW_BOX: str = "\U0001F7E8"
@@ -27,7 +27,7 @@ while INDEX < 6:
                 gt += 1
             else: 
                 gt += 1
-        if a == True:
+        if a == True: 
             str2 += YELLOW_BOX
         else:
             str2 += WHITE_BOX
