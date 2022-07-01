@@ -1,6 +1,6 @@
 """EX03 - Wordle - A cute step toward Wordle."""
 
-__author__ ="730440563"
+__author__ = "730440563"
 
 
 
