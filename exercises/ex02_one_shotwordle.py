@@ -1,6 +1,6 @@
 """EX02 - One-Shot wordle - A cute step toward Wordle."""
 
-__author__ ="730440563"
+__author__ = "730440563"
 
 w: str = "python"
 gues: str = input("What is your 6-letter word guess? ")

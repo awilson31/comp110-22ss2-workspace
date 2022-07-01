@@ -32,10 +32,3 @@ if chara == word[4]:
     int += 1
 
 print(str(int) + " instances of " + chara + " found in " + word) 
-
-
-
-
-
-
-    
