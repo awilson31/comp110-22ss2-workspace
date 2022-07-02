@@ -31,4 +31,7 @@ if chara == word[4]:
     print(chara + " found at index 4")
     int += 1
 
-print(str(int) + " instances of " + chara + " found in " + word) 
+if chara in word:
+    print(str(int) + " instance of " + chara + " found in " + word) 
+else:
+    print("No instances of " + chara + " found in " + word)
