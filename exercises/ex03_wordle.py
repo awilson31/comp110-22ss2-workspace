@@ -1,9 +1,6 @@
 """EX03 - Wordle - A cute step toward Wordle."""
 
 __author__ = "730440563"
-
-
-
 def contains_char(word: str, chara: str) -> bool:
 
     assert len(chara) == 1
