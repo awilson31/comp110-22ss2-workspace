@@ -63,3 +63,5 @@ def main() -> None:
             turn += 1
     print(" X/6 - Sorry, try again tomorrow!")
 main()
+if __name__ == "__main__":
+    main()

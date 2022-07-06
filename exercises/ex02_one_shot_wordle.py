@@ -9,7 +9,7 @@ while g != 6:
     if len(gues) == 6:
         g = 6 
         break
-    gue: str = input("That was not 6 letters! Try again: ")
+    gues: str = input("That was not 6 letters! Try again: ")
 WHITE_BOX: str = "\U00002B1C"
 GREEN_BOX: str = "\U0001F7E9"
 YELLOW_BOX: str = "\U0001F7E8"

@@ -69,3 +69,5 @@ def guesshard() -> int:
         points += 3
         print("You got the secret number" + congrats)
 main()
+if __name__ == "__main__":
+    main()
